@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* General config*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading 1 config */
+h1 {
+    font-size: 36px;
+    color: #bb9af7;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* heading 2 config*/
+h2 {
+    font-size: 24px;
+    color: #ffc777;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* heading 3 config*/
+h3 {
+    font-size: 18px;
+    color: #4fd6be;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Paragraph config*/
+p {
+    font-size: 12px;
+    color: #7aa2f7;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* List config*/
+ol, ul {
+    font-size: 12px;
+    color: #c3e88d;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+/* Link styles */
+a {
+    color: #ff757f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Layout styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}

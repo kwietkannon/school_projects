@@ -1,0 +1,1 @@
+#### Notes for myself when I start using CSS

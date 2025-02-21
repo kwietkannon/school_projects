@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <!-- title of the website-->
+<head>
+    <title>Jamie Garcia's Chili pepper Website!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+    
+<!-- main body of the webpage -->
+<body>
+    <h1>This is my website dedicated to Chili peppers</h1>
+    <p>This is the chili pepper site's homepage!.</p>
+
+    <!-- list of pepper genus types-->
+    <h3>The 5 Genius of peppers (Capsicum)</h3>
+    <ol>
+        <li>1. Capsicum Annuum</li>
+        <li>2. Capsicum Chinense</li>
+        <li>3. Capsicum Frutescens</li>
+        <li>4. Capsicum Pubescens</li>
+        <li>5. Capsicum Baccatum</li>
+    </ol>
+    
+    <!-- list of some common peppers from the genus types-->
+    <ul>
+        <li> some types of Annuum peppers are: Bell peppers, Jalapeno and Cayenne</li>
+        <li> some types of Chinense peppers are: Habanero and Scoth bonnet</li>
+        <li> some types of Frutescens peppers are: tabasco and malagueta</li>
+        <li> A type of Pubescens pepper is: Manzano (they are rare)</li>
+        <li> some types of Baccatum peppers are: Aji amarillo and Aji pineapple</li>
+    </ul>
+
+    <!--links to other  html pages-->
+    <p>go to <a href="{{ url_for('about', filename='about.html')}}"> About </a> to go to about me page</p>
+    <p>go to <a href="{{ url_for('homepage', filename='homepage.html')}}"> Homepage </a> to go back to homepage</p>
+
+    <!-- external resource links-->
+    <p>to learn more about peppers please check out these websites</p>
+    <ul>
+        <li><a href="https://peppergeek.com/capsicum-pepper-species/"> Pepper Geek</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/List_of_Capsicum_cultivars"> Wikipedia</a></li>
+        <li><a href="https://pepperscale.com/genus-capsicum/"> Pepper Scale</a></li>
+    </ul>
+</body>
+</html>

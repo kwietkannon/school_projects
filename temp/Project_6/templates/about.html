@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Unique Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to My Unique Website</h1>
+    <p>This is the home page of my unique website.</p>
+
+    <h2>About Us</h2>
+    <p>We are a company that specializes in providing unique products and services to our customers.</p>
+
+    <h3>Our Team</h3>
+    <ul>
+        <li>John Doe, CEO</li>
+        <li>Jane Doe, COO</li>
+        <li>Bob Smith, CTO</li>
+    </ul>
+
+    <p>The current date and time is: {{ current_time.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+
+    <!-- This is a comment -->
+
+    <ol>
+        <li>Unique Feature 1</li>
+        <li>Unique Feature 2</li>
+        <li>Unique Feature 3</li>
+    </ol>
+
+    <a href="https://www.example.com">Example Website 1</a>
+    <a href="https://www.another-example.com">Example Website 2</a>
+    <a href="https://www.third-example.com">Example Website 3</a>
+</body>
+</html>

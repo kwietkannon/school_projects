@@ -1,0 +1,8 @@
+protected.html:
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Welcome, {{ user }}!</h1>
+<p>This is a protected page that can only be accessed after login.</p>
+<a href="{{ url_for('logout') }}">Logout</a>
+{% endblock %}

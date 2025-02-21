@@ -1,0 +1,1 @@
+#### notes for when I have to start using Java again

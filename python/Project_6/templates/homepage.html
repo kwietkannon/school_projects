@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <!-- title of the website-->
+<head>
+    <title>Jamie Garcia's Chili pepper Website!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+    <!-- main body of the webpage -->
+<body>
+    <h1>This is my website dedicated to Chili peppers</h1>
+    <p>This is the chili pepper site's homepage!.</p>
+    
+    <!--links to other  html pages-->
+    <p>go to <a href="{{ url_for('about', filename='about.html')}}"> About </a> to learn more about me</p>
+    <p>go to <a href="{{ url_for('peppers', filename='peppers.html')}}"> Peppers </a> to learn more about peppers</p>
+    
+    <!-- Displays the date and time as part of the requirements for the assignment -->
+    <p>The current date and time is: {{ current_time.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+</body>
+</html>

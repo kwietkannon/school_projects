@@ -1,0 +1,1 @@
+#### notes for SDEV and other python related things

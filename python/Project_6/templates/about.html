@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <!-- title of the website-->
+<head>
+    <title>Jamie Garcia's Chili pepper Website!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+    <!-- main body of the webpage -->
+<body>
+    <h1>This is my website dedicated to Chili peppers</h1>
+    <p>This is the chili pepper site's homepage!.</p>
+    
+    <!-- about me section -->
+    <h2>About Me</h2>
+    <p>I'm just a computer development student that also has a love of chilis</p>
+    <h3>A few other things about me</h3>
+    <ul>
+        <li>1. I grow lots of different types of chilis</li>
+        <li>2. I really enjoy making hot sauces and salsa</li>
+        <li>3. some of the chilis I grow are even too hot for me</li>
+    </ul>
+    
+    <!--links to other  html pages-->
+    <p>go to <a href="{{ url_for('homepage', filename='homepage.html')}}"> Homepage </a> to go to back to the homepage</p>
+    <p>go to <a href="{{ url_for('peppers', filename='peppers.html')}}"> peppers </a> to learn more about peppers</p>
+</body>
+</html>
